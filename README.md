@@ -12,6 +12,7 @@ Automated chore scheduler with SMS reminders for a 4-person apartment.
 | Chore | Frequency | Who |
 |-------|-----------|-----|
 | Vacuuming (kitchen, entryway, dining, living room) | Weekly | All 4, rotating |
+| Wipe-down (counters, dining table, console table, floor spills) | Weekly | All 4, rotating |
 | Mopping (kitchen, entryway, dining room) | Monthly (every 4 weeks) | All 4, rotating |
 | Stainless steel clean | Monthly (every 4 weeks) | All 4, rotating |
 | Bathroom deep clean | Every 2 weeks | Maya, Sophie, Bri |
@@ -33,7 +34,7 @@ export TWILIO_PHONE_NUMBER="+15551234567"
 Or copy `.env.example` to `.env` and fill in your values.
 
 ### 3. Update phone numbers
-Edit `config.py` and replace the placeholder phone numbers with real ones.
+Copy `.env.example` to `.env` and fill in your Twilio creds and roommate phone numbers.
 
 ### 4. Preview the schedule
 ```bash
@@ -52,12 +53,9 @@ python main.py send
 
 ## Automation
 
-Set up a cron job or GitHub Action to run every Monday morning:
+A GitHub Actions workflow runs every Thursday at 6pm ET automatically. You can also trigger it manually from the Actions tab.
 
-```cron
-# Every Monday at 9am
-0 9 * * 1 cd /path/to/chore-chart && python main.py send
-```
+Add your secrets (Twilio creds + phone numbers) in the repo's Settings > Secrets and variables > Actions.
 
 ## Customizing
 

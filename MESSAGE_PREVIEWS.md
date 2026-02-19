@@ -22,7 +22,21 @@ Here's exactly what each person will receive as a text. Edit the templates in `m
 
 ---
 
-## 2. Mopping (every 4 weeks)
+## 2. Wipe-down (weekly)
+
+> hiii {name}!! you're on wipe-down duty this week ~
+>
+> here's what needs a quick wipe!
+> - kitchen counters
+> - dining table
+> - console table
+> - if there are any spills on the floor, just give them a quick wipe (no full mop needed!)
+>
+> takes like 5 min tops. tysm!! 💕
+
+---
+
+## 3. Mopping (every 4 weeks)
 
 > hiii {name}!! 🪣 it's your month to mop :)
 >
@@ -31,11 +45,11 @@ Here's exactly what each person will receive as a text. Edit the templates in `m
 > - entryway
 > - dining room
 >
-> lil heads up — try to mop AFTER whoever's vacuuming this week does their thing so the floors are clear first! just coordinate w them. tysm!! 💫
+> lil heads up — {vacuum_person} is vacuuming this week so try to mop AFTER she's done so the floors are clear first! just coordinate w her. tysm!! 💫
 
 ---
 
-## 3. Stainless Steel Clean (every 4 weeks)
+## 4. Stainless Steel Clean (every 4 weeks)
 
 > hiii {name}!! 🪞 it's your month for stainless steel duty ~
 >
@@ -54,7 +68,7 @@ Here's exactly what each person will receive as a text. Edit the templates in `m
 
 ---
 
-## 4. Bathroom Clean (every 2 weeks)
+## 5. Bathroom Clean (every 2 weeks)
 
 > hiii {name}!! 🚿 you're up for the biweekly bathroom clean!!
 >
@@ -73,9 +87,10 @@ Here's exactly what each person will receive as a text. Edit the templates in `m
 | Chore | Frequency | Rotation order |
 |-------|-----------|----------------|
 | Vacuuming | Weekly | Sophie → Bri → Alizeh → Maya |
+| Wipe-down | Weekly | Bri → Alizeh → Maya → Sophie |
 | Mopping | Every 4 weeks | Bri → Alizeh → Maya → Sophie |
 | Stainless Steel | Every 4 weeks | Alizeh → Maya → Sophie → Bri |
-| Bathroom | Every 2 weeks | Maya → Sophie → Bri |
+| Bathroom | Every 2 weeks | Bri → Maya → Sophie |
 
 *{name} gets replaced with the person's actual name when the text is sent.*
 
